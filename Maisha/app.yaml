@@ -1,0 +1,41 @@
+application: maishaweb
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  script: page/index.html
+
+- url: /apps
+  script: page/apps.html
+
+- url: /arts
+  script: page/arts.html
+
+- url: /digital
+  script: page/digital.html
+
+- url: /about
+  script: page/about.html
+
+- url: /contact
+  script: page/contact.html
+
+- url: /digital
+  script: page/digital.html
+
+- url: /img
+  static_dir: img
+
+- url: /bootstrap/css/
+  static_dir: bootstrap/css/
+
+- url: /bootstrap/js/
+  static_dir: bootstrap/js/
+
+- url: /bootstrap/fonts/
+  static_dir: bootstrap/fonts/
+
+- url: /stylesheet
+  static_dir: stylesheet

@@ -1,0 +1,24 @@
+.navLogo{
+max-width: 30%;
+}
+
+.navGutter{
+margin-top: 50px;
+}
+
+.navbar-default{
+background-color:rgba(248, 248, 248, 0.8);
+}
+
+.slidesize{
+width: 100%;
+}
+.serviceSummary{
+text-align: center;
+}
+/*
+.nav{
+margin-bottom:5%;
+margin-top:2%;
+}
+*/
