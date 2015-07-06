@@ -1,5 +1,5 @@
 application: maishaweb
-version: 1
+version: 2
 runtime: php55
 api_version: 1
 
@@ -24,6 +24,9 @@ handlers:
 
 - url: /digital
   script: page/digital.html
+
+- url: /services
+  script: page/services.html
 
 - url: /img
   static_dir: img
